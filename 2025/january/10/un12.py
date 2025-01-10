@@ -36,5 +36,5 @@ def currency_exchange():
     converted_amount = amount * rate
     print(f"Вы получили {converted_amount:.2f} {target_currency}.")
 
-currency_exchange()
 
+currency_exchange()
