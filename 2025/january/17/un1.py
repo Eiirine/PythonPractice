@@ -13,7 +13,7 @@ def season_definer():
                     print("Это летний месяц.")
                 else:
                     print("Это осенний месяц.")
-                break  # Завершаем цикл при корректном вводе
+                break
             else:
                 print("Ошибка ввода! Пожалуйста, введите число от 1 до 12.")
         except ValueError:
